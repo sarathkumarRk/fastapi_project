@@ -1,0 +1,34 @@
+# Doctor & Patient API (FastAPI)
+
+## Description
+This project is a simple REST API built using FastAPI to manage Doctors and Patients.
+
+## 🛠 Tech Stack
+- Python
+- FastAPI
+- Pydantic
+- Uvicorn
+
+##  How to Run
+
+1. Install packages:
+pip install fastapi uvicorn
+
+2. Run server:
+uvicorn main:app --reload
+
+3. Open browser:
+http://127.0.0.1:8000/docs
+
+### Doctor APIs
+- POST /doctors
+- GET /doctors
+- GET /doctors/{doctor_id}
+
+### Patient APIs
+- POST /patients
+- GET /patients
+
+##  Validation
+- Email must be valid
+- Age must be greater than 0
